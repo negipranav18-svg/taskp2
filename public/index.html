@@ -1,101 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DEV@Deakin - Welcome Email Subscription</title>
-  <link rel="stylesheet" href="style.css">
+
+    <title>My Personal Website - Welcome Email</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
 
-  <!-- Top Navigation Header -->
-  <header class="navbar">
-    <div class="logo">DEV@Deakin</div>
-    <div class="search-box">
-      <input type="text" placeholder="Search...">
-    </div>
-    <div class="nav-links">
-      <a href="#post" class="nav-btn">Post</a>
-      <a href="#login" class="nav-btn">Login</a>
-    </div>
-  </header>
+    <div class="navigation">
 
-  <!-- Hero Banner -->
-  <section class="hero-banner">
-    <div class="hero-content">
-      <h1>Welcome to DEV@Deakin</h1>
-      <p>Connect, share ideas, and learn together with fellow university students.</p>
-    </div>
-  </section>
+        <a href="#about">About</a>
 
-  <!-- Featured Articles Section -->
-  <section class="content-section">
-    <h2>Featured Articles</h2>
-    <div class="card-grid">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=500&q=80" alt="Node.js Development">
-        <h3>Node.js & Express Basics</h3>
-        <p>Learn how to build beginner-friendly web servers and handle backend API routes.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80" alt="Secure Web Development">
-        <h3>Secure Web APIs</h3>
-        <p>Best practices for handling API keys with .env files and securing web platforms.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80" alt="Frontend UI">
-        <h3>Frontend Essentials</h3>
-        <p>Creating clean HTML, CSS, and asynchronous JavaScript fetch() requests.</p>
-      </div>
-    </div>
-  </section>
+        <a href="#work">Work</a>
 
-  <!-- Sign-Up Feature: Requirement 2 from Task Sheet -->
-  <section class="newsletter-bar-wrapper">
-    <div class="newsletter-bar">
-      <span class="newsletter-title">SIGN UP FOR OUR DAILY INSIDER</span>
-      <form id="subscribeForm" class="subscribe-form">
-        <input 
-          type="email" 
-          id="email" 
-          placeholder="Enter your email" 
-          required
-        >
-        <button type="submit" id="subscribeBtn">Subscribe</button>
-      </form>
-    </div>
-    <!-- Feedback Message -->
-    <p id="message" class="message"></p>
-  </section>
+        <a href="#newsletter">Newsletter</a>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-columns">
-      <div class="footer-col">
-        <h4>Explore</h4>
-        <p>Home</p>
-        <p>Questions</p>
-        <p>Articles</p>
-        <p>Tutorials</p>
-      </div>
-      <div class="footer-col">
-        <h4>Support</h4>
-        <p>FAQs</p>
-        <p>Help Desk</p>
-        <p>Contact Us</p>
-      </div>
-      <div class="footer-col">
-        <h4>Stay connected</h4>
-        <p>Facebook</p>
-        <p>Twitter</p>
-        <p>Instagram</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>DEV@Deakin 2026 &bull; Privacy Policy &bull; Terms of Service</p>
-    </div>
-  </footer>
+        <a href="#contact">Contact</a>
 
-  <script src="script.js"></script>
+    </div>
+
+    <div class="banner">
+
+        <img src="https://sustainable.chitkara.edu.in/wp-content/themes/sustain/images/main-slider/sustain-banner03.jpg">
+
+        <div class="banner-message">
+
+            Hey, I'm Pranav
+
+        </div>
+
+    </div>
+
+    <div id="about" class="about">
+
+        <h1>About Me</h1>
+
+        <img class="profile"
+        src="profile.jpg.png">
+
+        <p>
+        I am a second year university student studying
+        Artificial Intelligence and Machine Learning.
+    </p>
+
+    <p>
+        I have worked with C++, C#, and Python. At the moment,
+        I am learning HTML, CSS and JavaScript to improve my
+        web development skills.
+    </p>
+
+    <p>
+        I have also done some work with Arduino, which helped
+        me learn more about programming and working with
+        hardware.
+    </p>
+
+    </div>
+
+    <div id="work" class="work">
+
+        <h1>My Work</h1>
+
+        <div class="projects">
+
+            <div class="project">
+
+                <img src="profile3.jpg.jpeg">
+
+                <h2>My First Website</h2>
+
+                <p>
+                    This is a simple website I made while learning
+                    HTML and CSS.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <img src="https://i.pinimg.com/736x/b4/3c/0b/b43c0b0d65e7500b6f95222ae5021835.jpg">
+
+                <h2>Coding Practice</h2>
+
+                <p>
+                    I have been practising small coding programs
+                    to improve my programming skills.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvlRoRkOm-bU4OGtJqAhmXZxT8wglxorLo28VSNVgKhQ&s=10">
+
+                <h2>University Project</h2>
+
+                <p>
+                    A small project that I worked on as part of
+                    my university learning.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="gallery-section">
+
+        <h1>Gallery</h1>
+
+        <div class="gallery">
+
+            <img src="profile2.jpg.jpeg">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtr4UoLL3UYbJKVQ5pRNsxLQ6_X0HHlaZTxL261cL0ug&s=10">
+
+            <img src="profile5.jpg.jpeg">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsIlFg1lG95qjVet0A_u7dHYXUOoeAhD8pnfLfN2jAnw&s=10">
+
+        </div>
+
+    </div>
+
+    <!-- Sign-Up Feature: SIT313 Task P2 Requirement -->
+    <div id="newsletter" class="newsletter-section">
+        <div class="newsletter-bar">
+            <span class="newsletter-title">SIGN UP FOR OUR DAILY INSIDER</span>
+            <form id="subscribeForm" class="subscribe-form">
+                <input 
+                    type="email" 
+                    id="email" 
+                    placeholder="Enter your email" 
+                    required
+                >
+                <button type="submit" id="subscribeBtn">Subscribe</button>
+            </form>
+        </div>
+        <p id="message" class="feedback-message"></p>
+    </div>
+
+    <div id="contact" class="contact">
+
+        <h1>Contact</h1>
+
+        <p>Email: pranav9081.ai25@chitkara.edu.in</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

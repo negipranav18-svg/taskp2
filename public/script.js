@@ -1,4 +1,4 @@
-// Simple beginner-level script to handle form submission with fetch()
+// Beginner-friendly client script to handle newsletter subscription via fetch()
 const form = document.getElementById("subscribeForm");
 const emailInput = document.getElementById("email");
 const message = document.getElementById("message");
@@ -11,11 +11,10 @@ form.addEventListener("submit", async (e) => {
 
   if (!email) {
     message.textContent = "Please enter an email address.";
-    message.className = "message error";
+    message.className = "feedback-message error";
     return;
   }
 
-  // Visual feedback while sending
   submitBtn.disabled = true;
   submitBtn.textContent = "Sending...";
   message.textContent = "";
@@ -35,17 +34,17 @@ form.addEventListener("submit", async (e) => {
     if (response.ok) {
       // Success (Status 200)
       message.textContent = data.message || "Welcome email sent successfully!";
-      message.className = "message success";
+      message.className = "feedback-message success";
       emailInput.value = "";
     } else {
       // Error from backend (Status 400 or 500)
       message.textContent = data.message || "Email could not be sent.";
-      message.className = "message error";
+      message.className = "feedback-message error";
     }
   } catch (err) {
     console.error("Fetch error:", err);
     message.textContent = "Could not connect to the server. Please try again.";
-    message.className = "message error";
+    message.className = "feedback-message error";
   } finally {
     submitBtn.disabled = false;
     submitBtn.textContent = "Subscribe";
