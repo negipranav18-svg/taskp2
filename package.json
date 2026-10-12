@@ -1,0 +1,22 @@
+{
+  "name": "taskp2",
+  "version": "1.0.0",
+  "description": "SIT313 Task P2 - DEV@Deakin Welcome Email Subscription",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "email",
+    "sit313",
+    "deakin"
+  ],
+  "author": "Pranav",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "resend": "^3.2.0"
+  }
+}

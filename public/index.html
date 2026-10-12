@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEV@Deakin - Welcome Email Subscription</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="navbar">
+    <div class="logo">DEV@Deakin</div>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+    </div>
+    <div class="nav-links">
+      <a href="#post" class="nav-btn">Post</a>
+      <a href="#login" class="nav-btn">Login</a>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-banner">
+    <div class="hero-content">
+      <h1>Welcome to DEV@Deakin</h1>
+      <p>Connect, share ideas, and learn together with fellow university students.</p>
+    </div>
+  </section>
+
+  <!-- Featured Articles Section -->
+  <section class="content-section">
+    <h2>Featured Articles</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=500&q=80" alt="Node.js Development">
+        <h3>Node.js & Express Basics</h3>
+        <p>Learn how to build beginner-friendly web servers and handle backend API routes.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80" alt="Secure Web Development">
+        <h3>Secure Web APIs</h3>
+        <p>Best practices for handling API keys with .env files and securing web platforms.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80" alt="Frontend UI">
+        <h3>Frontend Essentials</h3>
+        <p>Creating clean HTML, CSS, and asynchronous JavaScript fetch() requests.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sign-Up Feature: Requirement 2 from Task Sheet -->
+  <section class="newsletter-bar-wrapper">
+    <div class="newsletter-bar">
+      <span class="newsletter-title">SIGN UP FOR OUR DAILY INSIDER</span>
+      <form id="subscribeForm" class="subscribe-form">
+        <input 
+          type="email" 
+          id="email" 
+          placeholder="Enter your email" 
+          required
+        >
+        <button type="submit" id="subscribeBtn">Subscribe</button>
+      </form>
+    </div>
+    <!-- Feedback Message -->
+    <p id="message" class="message"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <p>Home</p>
+        <p>Questions</p>
+        <p>Articles</p>
+        <p>Tutorials</p>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <p>FAQs</p>
+        <p>Help Desk</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="footer-col">
+        <h4>Stay connected</h4>
+        <p>Facebook</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>DEV@Deakin 2026 &bull; Privacy Policy &bull; Terms of Service</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
