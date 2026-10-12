@@ -52,10 +52,9 @@ Email sent successfully: { id: ... }
 
 ---
 
-## 3. GitLab Repository
-- **Repository URL**: `https://gitlab.com/chitkara-university3/task-p2`
-- **Visibility**: Internal
-- Configured `.gitignore` to exclude `node_modules/` and `.env`.
+## 3. GitHub Repository
+- **Repository URL**: `https://github.com/negipranav18-svg/taskp2`
+- Includes `.gitignore` excluding `node_modules/` and `.env`.
 
 ---
 

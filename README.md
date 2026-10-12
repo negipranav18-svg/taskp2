@@ -74,19 +74,16 @@ As per the SIT313 Task P2 sheet:
 
 ---
 
-## 🐙 Git & GitLab Repository Setup
+## 🐙 GitHub Repository Setup
 
 1. Initialize and commit your files:
    ```bash
    git add .
    git commit -m "feat: complete SIT313 Task P2 welcome email subscription feature"
    ```
-2. Create a new repository on GitLab / GitHub:
-   - Name: `Task P2`
-   - Visibility: **Internal**
-3. Link and push to your repository:
+2. Link and push to your repository:
    ```bash
-   git remote add origin https://gitlab.com/chitkara-university3/task-p2.git
+   git remote add origin https://github.com/negipranav18-svg/taskp2.git
    git branch -M main
    git push -u origin main
    ```
