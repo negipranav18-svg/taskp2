@@ -5,7 +5,6 @@ body {
 }
 
 
-/* Navigation */
 
 .navigation {
     text-align: center;
@@ -24,7 +23,6 @@ body {
 
 
 
-/* Banner */
 
 .banner {
     width: 90%;
@@ -56,7 +54,6 @@ body {
 
 
 
-/* About */
 
 .about {
     text-align: center;
@@ -82,7 +79,6 @@ body {
 
 
 
-/* Work */
 
 .work {
     width: 90%;
@@ -119,7 +115,6 @@ body {
 
 
 
-/* Gallery */
 
 .gallery-section {
     width: 90%;
@@ -145,7 +140,6 @@ body {
 
 
 
-/* Sign-Up Feature: Task 2 Requirement */
 
 .newsletter-section {
     width: 90%;
@@ -222,7 +216,6 @@ body {
 
 
 
-/* Contact */
 
 .contact {
     text-align: center;
@@ -236,7 +229,6 @@ body {
 
 
 
-/* Responsive - Smaller screen */
 
 @media (max-width: 700px) {
 
@@ -261,7 +253,6 @@ body {
 
 
 
-/* Responsive - Phone */
 
 @media (max-width: 450px) {
 
