@@ -4,7 +4,7 @@ This project implements a beginner-friendly web application for **DEV@Deakin**, 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 D:\taskp2
@@ -22,7 +22,7 @@ D:\taskp2
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### 1. Open the Project in VS Code
 - Open Visual Studio Code.
@@ -74,7 +74,7 @@ As per the SIT313 Task P2 sheet:
 
 ---
 
-## 🐙 GitHub Repository Setup
+## GitHub Repository Setup
 
 1. Initialize and commit your files:
    ```bash

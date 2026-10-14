@@ -1,4 +1,3 @@
-// Beginner-friendly client script to handle newsletter subscription via fetch()
 const form = document.getElementById("subscribeForm");
 const emailInput = document.getElementById("email");
 const message = document.getElementById("message");
@@ -20,7 +19,6 @@ form.addEventListener("submit", async (e) => {
   message.textContent = "";
 
   try {
-    // Send POST request to Express backend
     const response = await fetch("/subscribe", {
       method: "POST",
       headers: {
@@ -32,12 +30,10 @@ form.addEventListener("submit", async (e) => {
     const data = await response.json();
 
     if (response.ok) {
-      // Success (Status 200)
       message.textContent = data.message || "Welcome email sent successfully!";
       message.className = "feedback-message success";
       emailInput.value = "";
     } else {
-      // Error from backend (Status 400 or 500)
       message.textContent = data.message || "Email could not be sent.";
       message.className = "feedback-message error";
     }
